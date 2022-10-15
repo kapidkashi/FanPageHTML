@@ -1,0 +1,267 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(0,0,0,0.8);
+    padding: 0;
+    margin:0;
+}
+
+.nav-container{
+    display:flex;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3); 
+}
+
+.nav-list{
+    display:inline-flex;
+   list-style: none;
+   padding: 0.5em;
+}
+
+.nav-list>li{
+margin: 0 1em;
+line-height: 45px;
+}
+.nav-list>li>a{
+    text-decoration: none;
+    line-height:45px;
+}
+
+.nav-list>li>a:hover{
+    color: #29a19c
+}
+
+.background{
+    height: 70vh;
+    background: url('../assets/arthur.png') ;     
+    background-position: bottom;
+    background-size: cover;  
+    opacity: 80%;
+}
+
+.title{
+    font-size: 5em;
+    font-family:Verdana;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    font-weight:800;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.subtitle{
+    font-size: 1.5em;
+    font-family:Helvetica;
+    font-weight:400;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.btn-primary{
+    background-color: #29a19c;
+    color: #fff;
+    font-size: 1em;
+    padding: .6em 2em;
+    border:none;
+    border-radius: 0.3em;
+    position:absolute;
+    top: 85%;
+    left: 50%;
+}
+.btn-primary:hover{
+    background-color: #257c78;
+    cursor: pointer;
+}
+.header img {
+    padding-left: 10px;
+    float: left;
+    width:400px;
+    height:400px;
+    
+  }
+  
+.header>h1 {
+    
+    top: 18px;
+    left: 1%;
+ 
+  }
+.header>table {
+  
+    text-align:justify;
+    width:50%;
+    height: auto;
+    top: 18px;
+    position: relative;
+    left: 100px;
+  }
+.center {
+    margin-left: auto; 
+    margin-right: auto;
+}
+td{
+    font-size: 200%;
+    
+}
+
+
+h1{
+    text-align:center;
+}
+.backinfo>h4{
+    text-align:center;
+    margin-top: 25%;
+}
+.career{
+    text-align:center;
+    margin-top: 10%;
+}
+.socmed{
+    margin-top: 5%;
+}
+.socmed>ul{text-align:left;
+    margin:auto; 
+    max-width:25%;
+    text-align:center;
+    list-style-type:none;
+}
+
+.icon-list{
+    display:inline-flex;
+    list-style: none;
+    padding: 0.5em;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-list>li{
+    margin: 0 1em;
+    line-height: 45px;
+}
+
+.icon-list>li>a{
+    text-decoration: none;
+    line-height:45px;
+}
+
+.column {
+    float: left;
+}
+  
+.left {
+    width: 45%;
+}
+  
+.right {
+    width: 55%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.profile-img{
+    width: 500px;
+    height: 500px;
+    margin:1em 0 0 3.5em;
+ 
+  }
+
+.container>li{
+    list-style-type: none;  
+}
+
+.container>li>h2{
+    font-weight: 800;
+    font-size: 2em;
+    display: inline-block;
+}
+
+.container>li>h5{
+    font-weight: 800;
+    margin-top:0.5em;
+    display: inline-block;
+    font-size:2em;
+}
+
+.container>li>h6{
+    font-weight: 600;
+    margin:0.5em 0em 0em 4em;
+    font-size:1em;
+}
+
+.container>li>p{
+    font-weight: 600;
+    margin:0.5em;
+    font-size:1em;
+    display: inline-block;
+}
+
+#vinyl{
+    margin-top: 0.6em;
+    margin-right: 0.3em;
+    font-size:3em;
+}
+
+#heart-icon{
+    margin-right: 0.3em;
+    font-size:1em;
+    margin-top:0.2em;
+    margin-left:1em;
+}
+
+#play-icon{
+    margin-right: 0.5em;
+    font-size:1em;
+    margin-top:0.2em;
+}
+
+
+.table{
+    text-align: justify;
+    width:50%;
+    height:auto;
+    top:35px;
+    position:relative;
+    left:22em;
+
+}
+
+.table>h2{
+   text-align:center;
+    
+}
+
+.track-img{
+    width:200px;
+    height:200px;
+    margin:1em 1em 0em 1em;
+}
+
+.song-title{
+    margin:0em 1em 0.5em 1em;
+    text-align:justify;
+    color:black
+}
+
+.details{
+    margin:0em 1em 0.7em 1.3em;
+    text-align:justify;
+    font-size:0.8em;
+    color:black
+}
+
+.sub-details{
+    margin:0em 1em 1em 1.8em;
+    text-align:justify;
+    font-size:0.6em;
+    color:black;
+}
